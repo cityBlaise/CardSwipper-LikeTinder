@@ -67,8 +67,8 @@ imgs.forEach((img,i) => {
                             transform: 'translate(0px,-80px) scale(.4)'
                         },
                     ],{
-                        duration:1000,
-                        delay:100, 
+                        duration:500,
+                        delay:10, 
                     })
                     
                 })
@@ -81,8 +81,8 @@ imgs.forEach((img,i) => {
                             transform: 'translate(0px,-80px) scale(.4)'
                         },
                     ],{
-                        duration:1000,
-                        delay:100, 
+                        duration:500,
+                        delay:10, 
                     })
                     
                 })
@@ -96,7 +96,7 @@ imgs.forEach((img,i) => {
                     visibility:`hidden`,
                 },
             ],{
-                duration:400,
+                duration:100,
                 delay:00,
                 fill:'forwards'
             })
