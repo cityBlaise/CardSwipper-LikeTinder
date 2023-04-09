@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card swipper</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        window.addEventListener('load',(e)=>{
+            document.querySelector('.overlay').classList.remove('active')
+            document.querySelector('.container').classList.remove('blur')
+        })
+        window.addEventListener('DOMContentLoaded',(e)=>{
+            document.querySelector('.overlay').classList.add('active') 
+        })
+    </script>
+  </head>
+  <body >
+    <div class="container blur">
+      <div class="reaction">
+        <div class="dislike">
+            <div class="dislike-wrapper">
+              <svg
+                fill="#9465ec"
+                width="50px"
+                height="50px"
+                viewBox="0 0 200 200"
+                data-name="Layer 1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#9465ec"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="0.8"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title></title>
+                  <path
+                    d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="like">
+            <div class="heart-wrapper">
+              <svg
+                width="50px"
+                height="50px"
+                viewBox="0 0 24.00 24.00"
+                fill="#ff6969"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12 20C12 20 21 16 21 9.71405C21 6 18.9648 4 16.4543 4C15.2487 4 14.0925 4.49666 13.24 5.38071L12.7198 5.92016C12.3266 6.32798 11.6734 6.32798 11.2802 5.92016L10.76 5.38071C9.90749 4.49666 8.75128 4 7.54569 4C5 4 3 6 3 9.71405C3 16 12 20 12 20Z"
+                    stroke="#ff6969"
+                    stroke-width=".5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+      </div>
+      <div class="swipper">
+        <div class="wrapper active">
+          <img draggable="false" src="./images/1.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/2.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/3.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/4.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/5.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/6.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/7.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/9.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/10.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/8.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/11.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/12.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/13.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/14.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/15.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/16.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/17.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/18.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/19.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/20.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/21.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/22.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/23.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/24.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/25.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/26.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/27.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/28.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/29.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/30.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/31.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/32.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/33.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/34.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/35.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/36.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/37.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/38.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/39.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/40.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/41.webp" alt="" />
+        </div>
+        <div class="wrapper">
+          <img draggable="false" src="./images/42.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="overlay">
+        <div class="content"> 
+            <div class="spinner"></div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
