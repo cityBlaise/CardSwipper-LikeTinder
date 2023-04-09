@@ -58,7 +58,7 @@ body {
 }
 .wrapper.active{
     filter: drop-shadow(0 10px 10px rgba(87, 238, 255, 0.593));
-    transition: .2s .2s;
+    transition: transform .50ms .50ms;
     transform: none;
 }
  
